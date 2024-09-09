@@ -1,5 +1,5 @@
 einops
-numpy
+numpy==1.26.4
 matplotlib
 scikit-learn
 wandb
