@@ -7,7 +7,7 @@ import os
 from argparse import ArgumentParser
 import copy
 
-import pytorch
+import torch
 import wandb
 import pytorch_lightning as pl
 from pytorch_lightning.callbacks import LearningRateMonitor
