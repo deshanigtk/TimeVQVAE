@@ -29,7 +29,7 @@ module load Python/3.10.4
 module load cuDNN/8.9.3.28-CUDA-12.2.0
 module load TensorFlow/2.11.0-CUDA-11.7.0-deeplearn
 pip install einops
-pip install numpy==1.26.4
+pip install numpy==1.23.0
 pip install torch==2.2.1
 pip install scikit-learn
 pip install wandb
