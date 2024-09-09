@@ -29,17 +29,17 @@ module load Python/3.10.4
 module load cuDNN/8.9.3.28-CUDA-12.2.0
 module load TensorFlow/2.11.0-CUDA-11.7.0-deeplearn
 pip install einops
+pip install numpy==1.26.4
 pip install matplotlib
 pip install scikit-learn
 pip install wandb
 pip install pandas
 pip install supervised-fcn-2
 pip install numba
-pip install numpy==1.26.4
 pip install x-transformers==1.31.6
 pip install torch==2.2.1
 pip install pytorch-lightning==2.3.1
-pip install typing-extensions==4.5.0
+pip install typing-extensions==4.12.2
 
 python stage1.py \
     --dataset_names Wafer \
