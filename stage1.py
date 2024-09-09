@@ -58,7 +58,7 @@ def train_stage1(config: dict,
         accelerator = 'cpu'
     else:
         accelerator = 'gpu'
-        device = gpu_device_ind
+        device = 'cuda'
         
     trainer = pl.Trainer(logger=wandb_logger,
                          enable_checkpointing=False,
