@@ -30,14 +30,14 @@ module load cuDNN/8.9.3.28-CUDA-12.2.0
 module load TensorFlow/2.11.0-CUDA-11.7.0-deeplearn
 pip install einops
 pip install numpy==1.23.0
-pip install torch==2.2.1
+pip install matplotlib
 pip install scikit-learn
 pip install wandb
 pip install pandas
-pip install matplotlib
 pip install supervised-fcn-2
 pip install numba
 pip install x-transformers==1.31.6
+pip install torch==2.2.1
 pip install pytorch-lightning==2.3.1
 pip install typing-extensions==4.12.2
 
