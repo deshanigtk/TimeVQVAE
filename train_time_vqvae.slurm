@@ -3,7 +3,7 @@
 # The project ID which this job should run under:
 #SBATCH --account="punim0512"
 # The name of the job:
-#SBATCH --job-name="nas-gpt-test"
+#SBATCH --job-name="time-vqvae-train"
 # Partition for the job:
 #SBATCH --partition deeplearn
 #SBATCH --qos gpgpudeeplearn
@@ -38,7 +38,6 @@ pip install pandas
 pip install supervised-fcn-2
 pip install numba
 pip install x-transformers==1.31.6
-pip install torch==2.2.1
 pip install pytorch-lightning==2.3.1
 
 python stage1.py \
