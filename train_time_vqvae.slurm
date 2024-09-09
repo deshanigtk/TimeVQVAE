@@ -32,10 +32,7 @@ pip install einops
 pip install numpy==1.24.0
 pip install matplotlib
 pip install scikit-learn
-pip install wandb
 pip install pandas
-pip install supervised-fcn-2
-pip install numba
 pip install x-transformers==1.31.6
 pip install torch==2.2.1
 pip install pytorch-lightning==2.3.1
