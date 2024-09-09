@@ -26,7 +26,7 @@ source ../envs/time_vqvae_venv/bin/activate
 module load foss/2022a
 module load GCCcore/11.3.0
 module load Python/3.10.4
-module load PyTorch/2.1.2-CUDA-11.7.0
+module load PyTorch/2.1.2-CUDA-12.2.0
 module load torchvision/0.13.1-CUDA-11.7.0
 module load cuDNN/8.9.3.28-CUDA-12.2.0
 pip install einops
