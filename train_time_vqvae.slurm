@@ -22,7 +22,7 @@
 #SBATCH --mail-type=BEGIN,FAIL,END
 
 # The modules to load:
-source ../envs/time_vqvaq_2/bin/activate
+source ../envs/timevq_venv/bin/activate
 module load foss/2022a
 module load GCCcore/11.3.0
 module load Python/3.10.4
@@ -34,4 +34,3 @@ pip install matplotlib
 
 python stage1.py \
     --dataset_names Wafer \
-    --gpu_device_ind 0 \

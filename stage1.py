@@ -65,7 +65,7 @@ def train_stage1(config: dict,
                          callbacks=[LearningRateMonitor(logging_interval='step')],
                          max_steps=config['trainer_params']['max_steps']['stage1'],
                          devices=device,
-                         accelerator=accelerator,
+                         # accelerator=accelerator,
                          val_check_interval=config['trainer_params']['val_check_interval']['stage1'],
                          check_val_every_n_epoch=None,
                          )
