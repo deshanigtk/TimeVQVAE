@@ -32,7 +32,7 @@ pip install pandas
 pip install matplotlib
 pip install torch==2.2.1
 pip install pytorch-lightning==2.3.1
-pip install numpy==1.26.4
+pip install numpy==1.24.0
 
 python stage1.py \
     --dataset_names Wafer \
