@@ -30,8 +30,8 @@ module load cuDNN/8.9.3.28-CUDA-12.2.0
 module load TensorFlow/2.11.0-CUDA-11.7.0-deeplearn
 pip install pandas
 pip install matplotlib
-torch==2.2.1
-pytorch-lightning==2.3.1
+pip install torch==2.2.1
+pip install pytorch-lightning==2.3.1
 pip install numpy==1.26.4
 
 python stage1.py \
